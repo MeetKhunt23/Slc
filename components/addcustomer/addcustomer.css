@@ -1,0 +1,114 @@
+.addcustomermaindiv {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.addcustomerdivs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+}
+
+.formcontent {
+  /* display: block; */
+  width: 90%;
+  margin-left: 5%;
+}
+
+.addcustomerheader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.addcusbbtn {
+  width: 100%;
+}
+
+.addcushbtn {
+  width: 100%;
+}
+
+.signuphere {
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+.addcustomerbackbtndiv {
+  width: 15%;
+  margin-left: 5%;
+}
+.addcustomerhomebtndiv {
+  width: 15%;
+  margin-right:5%;
+
+}
+
+@media only screen and (max-width: 576px) {
+  .addcustomerdivs {
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between; */
+  }
+
+  .addcustomermaindiv {
+    width: 100%;
+  }
+
+  .content {
+    display: block;
+  }
+
+  .formcontent {
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .addcustomermaindiv {
+    /* margin-left: 0px; */
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  .signuphere {
+    width: 50%;
+    margin-bottom: 0px;
+    font-size: 18px;
+    padding: 0px 0px 0px 0px;
+    padding-top: 20px;
+  }
+
+  .leftside {
+    width: 5%;
+    height: auto;
+  }
+
+  .rightside {
+    width: 5%;
+    height: auto;
+  }
+
+  .addcustomerheader {
+    width: 100%;
+  }
+
+  .addcusbbtn {
+    width: 100%;
+    margin-left: 5%;
+  }
+
+  .addcushbtn {
+    width: 100%;
+    margin-right: 5%;
+  }
+
+  .addcustomerbackbtndiv {
+    width: 20%;
+  }
+  .addcustomerhomebtndiv {
+    width: 20%;
+  }
+}

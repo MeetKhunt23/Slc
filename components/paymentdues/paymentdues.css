@@ -1,0 +1,132 @@
+.customer_detaildiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.filterandhistorypaymentdiv {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.customer_accountpaymentduediv {
+  width: 33%;
+  /* height: 80%; */
+}
+
+.filterpaymentduecontainer {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+
+.duebillsfilter {
+  height: 50px;
+  width: 30%;
+  border: 2px solid black;
+}
+
+.allduebillslist {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  margin-bottom: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
+
+.duebillbox {
+  width: 30%;
+  margin-top: 10px;
+  border: 2px solid grey;
+  padding: 20px 20px;
+  margin-left: 30px;
+  border-radius: 20px 20px 0px 0px;
+  padding-top: 0px;
+  background-image: linear-gradient(
+    rgb(179, 177, 177),
+    rgb(255, 255, 255),
+    rgba(253, 253, 253, 0.575)
+  );
+  margin-bottom: 20px;
+}
+
+.updatebillbtn {
+  padding-top: 5px;
+}
+
+.duebillshbtn {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+
+@media only screen and (max-width: 576px) {
+  .customer_account {
+    width: 80%;
+    font-size: 15px;
+  }
+
+  .filterpaymentduecontainer {
+    width: 20%;
+    margin-right: 10px;
+  }
+
+  .customer_accountpaymentduediv {
+    width: 25%;
+  }
+
+  .customer_detaildiv {
+    width: 60%;
+  }
+
+  .duebillsfilter {
+    width: 100%;
+    height: 50px;
+    /* margin-right: 20px; */
+    font-size: 15px;
+  }
+
+  .paymentdueheadertitle {
+    font-size: 20px;
+  }
+
+  .allduebillslist {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    margin-top: 20px;
+  }
+
+  .duebillbox {
+    width: 90%;
+    margin: 0px 0px 0px 0px;
+    margin-left: 5%;
+    font-size: 15px;
+  }
+
+  .updatebillbtn {
+    padding-top: 5px;
+  }
+
+  .duebillshbtn {
+
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+  }
+  .paymentdueheadertitle{
+    position: absolute;
+    top: 20px;
+    right:35%;
+  }
+}

@@ -1,0 +1,37 @@
+.updatecustomerdetails {
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+}
+
+.updatecustomertext{
+    font-size: 40px;
+    background-image:linear-gradient( rgb(248, 242, 242), rgb(255, 255, 255), rgba(75, 10, 255, 0.575));
+    height:60px
+}
+@media only screen and (max-width: 576px) {
+  .updatecustomerdetails {
+    display: block;
+    line-height: 30px;
+  }
+
+  .updatecustomerdetails > div {
+    width: 100%;
+  }  
+
+  .updatecustomertext{
+    padding-top: 10px;
+    font-size: 25px;
+    background-image:linear-gradient rgb(248, 242, 242), rgb(255, 255, 255), rgba(75, 10, 255, 0.575);
+    height:60px
+}
+
+
+  .updatecustomerdetails-1 {
+    width: 50%;
+  }
+
+  .updatecustomerdetails-2 {
+    width: 50%;
+  }
+}

@@ -1,0 +1,218 @@
+#root {
+  flex: 1 0 auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.billbookheader {
+  /* margin-top: 20px; */
+  height: 70px;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* text-decoration: underline; */
+}
+
+.selectcustomer {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  /* height: 200px; */
+}
+
+.detailed-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  line-height: 35px;
+  font-size: 20px;
+  border-top: 2px solid green;
+  border-bottom: 2px solid green;
+  padding: 20px 20px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 50px;
+}
+
+span {
+  color: grey;
+}
+
+.addbill {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.billbtn {
+  /* width: 0px; */
+  background-color: rgba(34, 228, 16, 0.5);
+}
+
+.billbtn:hover {
+  background-color: white;
+  border: 2px solid rgba(10, 10, 10, 0.5);
+}
+
+.detail {
+  border-right: 2px solid grey;
+  width: 50%;
+}
+
+.seelctimg {
+  height: 300px;
+  opacity: 50%;
+}
+
+.noselected {
+  /* border: 2px solid red; */
+  border-radius: 20px 0px;
+  width: 60%;
+  margin-left: 20%;
+  background-color: #e9ecef;
+  padding: 20px 20px;
+  height: 345px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.middlecontainer {
+  height: 500px;
+}
+
+.form-select {
+  height: 80px;
+  font-size: 20px;
+}
+
+.billbookhomebtn {
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.billbookhomebtndiv {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@media only screen and (max-width: 576px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    /* overflow: hidden; */
+  }
+
+  select {
+    width: 100%;
+  }
+  .selectcustomer {
+    margin: 0px 0px;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .form-select {
+    height: 60px;
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .noselected {
+    /* border: 2px solid red; */
+    border-radius: 20px 0px;
+    width: 80%;
+    margin-left: 10%;
+    background-color: #e9ecef;
+    padding: 20px 20px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .detailed-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .detail {
+    border: none;
+    width: 100%;
+  }
+
+  .detail > div {
+    border: none;
+    width: 100%;
+  }
+
+  .addbill {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+
+  .billbtn {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .middlecontainer {
+    height: 80%;
+    margin-bottom: 22%;
+  }
+
+  .billbookhomebtn {
+    border-radius: 10px;
+    margin-right: 3px;
+  }
+
+  .billbookhomebtndiv {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+  }
+
+  .billbookheader {
+    /* margin-top: 20px; */
+    height: 70px;
+    font-size: 30px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    /* text-decoration: underline; */
+  }
+
+  .options{
+  font-size: 13px;
+  width: 100%;
+  }
+}

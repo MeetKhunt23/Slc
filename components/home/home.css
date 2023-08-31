@@ -1,0 +1,101 @@
+#root{
+    flex: 1 0 auto;
+}
+
+.footer{
+    width: 100%;
+}
+
+.homedisplay{
+    position: relative;
+}
+
+.main{
+    /* height:720px; */
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.uppersection{
+    /* background-image: url("https://vakilsearch.com/blog/wp-content/uploads/2021/07/Shops-Establishments.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed; */
+
+    /* background-image:
+     linear-gradient(
+        76deg,
+        rgba(255, 255, 255, 0.432) 35%,
+        rgba(255, 255, 255, 0.521) 65%
+      ),
+      url("https://vakilsearch.com/blog/wp-content/uploads/2021/07/Shops-Establishments.jpg"); */
+    
+    height:70vh;
+    width: 100%;
+    background-image: url("https://content.pymnts.com/wp-content/uploads/2022/07/alkami-upswot-digital-banking-smbs.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.lowersection{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 15px 15px;
+    background-color: rgb(248, 236, 73);
+    color: rgb(2, 2, 2);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.gif{
+    width: 150px;
+    height:150px;
+    border-radius: 40px 40px;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .uppersection{
+    height:50vh;
+    background-size:cover;
+    /* background-size: auto; */
+    background-repeat: no-repeat;
+    }
+
+    .lowersection{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+        align-items: center;
+    }
+
+    button{
+        width: 300px;
+        height: 50px;
+        border: none;
+        border-radius: 10px;
+        color: rgb(2, 2, 2);
+        font-weight: 500;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .main{
+        /* height:720px; */
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+
+}

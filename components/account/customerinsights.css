@@ -1,0 +1,136 @@
+.rightcontaier {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  text-align: left;
+}
+
+.insightdetail{
+    width: 40%;
+}
+
+.insightheading {
+  display: flex;
+  justify-content: space-around;
+  color: rgb(6, 146, 41);
+}
+
+.insightheading > div {
+  text-align: center;
+  width: 33%;
+}
+
+.insighnumbers > div {
+  text-align: center;
+  width: 33%;
+}
+
+.insighnumbers {
+  display: flex;
+  text-align: left;
+  justify-content: space-around;
+}
+
+.Starcontainer {
+  display: flex;
+}
+
+.Starcontainer > div {
+  text-align: center;
+  width: 33%;
+  color: grey;
+}
+
+.filterandtext {
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+  justify-content: space-around;
+}
+
+.insightsfiltercontainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.detailed-insightcontainer {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  line-height: 35px;
+  font-size: 20px;
+  border-top: 2px solid rgb(47, 0, 255);
+  border-bottom: 2px solid rgb(128, 0, 0);
+  background-image: linear-gradient(
+    rgb(248, 242, 242),
+    rgb(255, 255, 255),
+    rgba(209, 236, 56, 0.65 8)
+  );
+  padding: 20px 20px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 50px;
+}
+
+.customerinsightfilter {
+  width: 10%;
+  height: 45px;
+  margin-bottom: -20px;
+}
+
+@media only screen and (max-width: 576px) {
+  .detailed-insightcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    line-height: 35px;
+    font-size: 20px;
+    border-top: 2px solid rgb(47, 0, 255);
+    border-bottom: 2px solid rgb(128, 0, 0);
+    background-image: linear-gradient(
+      rgb(248, 242, 242),
+      rgb(255, 255, 255),
+      rgba(209, 236, 56, 0.65 8)
+    );
+    padding: 10px 0px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 50px;
+  }
+
+  .rightcontaier {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+  }
+
+  .insightdetail {
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+  }
+
+  .customerinsightfilter {
+    width: 30%;
+    height: 45px;
+    margin-bottom: -20px;
+   
+  }
+
+  .insightsfiltercontainer {
+    margin-left: 20px;
+  }
+
+  .insightoptions{
+    font-size: 12px;
+  }
+
+  .insightdetail{
+    width: 100%;
+}
+}

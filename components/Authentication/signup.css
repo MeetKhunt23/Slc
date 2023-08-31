@@ -1,0 +1,231 @@
+.maindiv {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  /* margin-left: 10%; */
+  border: 2px solid grey;
+  margin-top: 3%;
+  border-radius: 20px 20px;
+  padding: 20px 40px;
+  margin-bottom: 3%;
+}
+
+.content {
+  display: flex;
+}
+
+.signupimg {
+  background-size: cover;
+  width: 50%;
+}
+
+.divimg {
+  width: 80%;
+  height: 100%;
+  border-radius: 20px 20px;
+}
+
+.formcontent {
+  width: 50%;
+}
+
+.loginmaindiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+  height: 90%;
+  margin-left: 10%;
+  border: 2px solid grey;
+  margin-top: 3%;
+  border-radius: 20px 20px;
+  padding: 20px 40px;
+  margin-bottom: 3%;
+  background-image: url("https://lh3.googleusercontent.com/drive-viewer/AFGJ81qQaLG5UJ67q6pq06dVIq-QcUAaFUcuuJnuN9y7j3T9O72_oD47QuYS47t8ShiAaSDTMG4uvW8-bnM7glOLhmpP3-IsWA=s1600");
+  background-size: cover;
+  justify-content: center;
+  position: absolute;
+
+  /* top: 5%; */
+}
+
+.logincontent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* margin-top: 10%; */
+}
+
+.loginhere {
+  position: relative;
+  bottom: 10px;
+  border-bottom: 2px solid rgb(163, 159, 159);
+  padding-bottom: 20px;
+  /* text-decoration: underline; */
+}
+
+.signuphere {
+  position: relative;
+  bottom: 10px;
+  border-bottom: 2px solid rgb(163, 159, 159);
+  padding-bottom: 20px;
+  /* text-decoration: underline; */
+}
+
+.formfields {
+  width: 80%;
+  margin-left: 10%;
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+
+.text-danger {
+  text-align: left;
+  display: flex;
+  justify-content: start;
+}
+
+.leftside {
+  height: 135vh;
+  width: 5%;
+  /* background-color: black; */
+  background-image: linear-gradient(
+    rgb(240, 167, 31),
+    rgb(255, 255, 255),
+    rgb(203, 11, 209)
+  );
+}
+
+.rightside {
+  height: 135vh;
+  width: 5%;
+  /* background-color: black; */
+  background-image: linear-gradient(
+    rgb(203, 11, 209),
+    rgb(255, 255, 255),
+    rgb(240, 167, 31)
+  );
+}
+
+.leftsidelogin {
+  height: 100vh;
+  width: 5%;
+  /* background-color: black; */
+  background-image: linear-gradient(
+    rgb(240, 167, 31),
+    rgb(255, 255, 255),
+    rgb(203, 11, 209)
+  );
+}
+
+.rightsidelogin {
+  height: 100vh;
+  width: 5%;
+  /* background-color: black; */
+  background-image: linear-gradient(
+    rgb(203, 11, 209),
+    rgb(255, 255, 255),
+    rgb(240, 167, 31)
+  );
+}
+
+.alldivs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.loginbtn{
+  width: 40%;
+}
+
+.mainsignupbtn{
+  width: 90%;
+margin-top: 20px;
+}
+
+@media only screen and (max-width: 576px) {
+  .alldivs {
+    display: flex;
+    justify-content: space-between;
+  }
+  .leftsidelogin {
+    width: 5%;
+  }
+  .loginmaindiv {
+    width: 80%;
+    margin: 0px 0px 0px 0px;
+    margin-top: 15%;
+    margin-left: 10%;
+    padding: 0px 0px 0px 0px;
+    height: 80%;
+
+  }
+
+  .rightsidelogin {
+    width: 5%;
+  }
+
+  loginmaindiv form{
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .formfields{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    line-height: 20px;
+  }
+
+  .input-field  {
+width: 90%;
+margin: 0px 0px 0px 0px;
+margin-left: 5%;
+  }
+
+  .text-danger{
+    width: 90%;
+    margin: 0px 0px 0px 0px;
+    margin-left: 5%;
+  }
+
+  .loginsubmitbtn{
+    margin-top: 15px;
+  }
+
+  .donthaveacc{
+    margin-top : -20px;
+  }
+
+  .loginbtn{
+    width: 90%;
+  }
+
+  .maindiv{
+    width: 90%;
+    padding: 0px 0px;
+  }
+
+  .signupmainhere{
+    width: 100%;
+    margin:0px 0px;
+    margin-top:20px;
+    margin-bottom:-40px;
+
+  }
+
+  .formcontent{
+    margin-top: -22px;
+  }
+  .formcontent > span{
+    margin: 0px 0px 0px 0px;
+  }
+
+  .signupimg{
+    display: none;
+  }
+
+  .mainsignupbtn{
+    width: 90%;
+    margin-left: 5%;
+  }
+}

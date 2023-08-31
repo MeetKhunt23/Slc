@@ -1,0 +1,131 @@
+#root{
+    flex: 1 0 auto;
+}
+
+body{
+display: flex;
+flex-direction: column;
+height: 100%;
+}
+
+.addbillcontainer{
+    border: 2px solid rgb(175, 174, 174);
+    margin-top: 2%;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 20px 20px;
+    padding: 40px 50px;
+    text-align: left;
+    font-size: 20px;
+    color: grey;
+    line-height: 30px;
+    align-items: left;
+    /* background-image: linear-gradient(rgb(248, 242, 242), rgb(255, 255, 255), rgba(173, 172, 175, 0.575)); */
+
+}
+
+.billsubbtncont{
+    display: flex;
+    justify-content: center;
+}
+
+.billbtnsub{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.text-danger{
+    font-size: 15px;
+}
+
+.billinput{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+
+.emptyinput{
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.imginput{
+    margin-bottom: 0px;
+}
+
+.emptyimginput{
+    margin-bottom: 20px;
+}
+
+
+.footer{
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.updatebilldetails{
+    display: flex;
+    justify-content: space-between;
+}
+
+.addbillheader{
+    display: flex;
+    justify-content: center;
+}
+
+.backbutton{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btext{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.updatebilltext{
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    .addbillcontainer{
+        border: 2px solid rgb(175, 174, 174);
+        margin-top: 2%;
+        width: 95%;
+        margin-left: 2.5%;
+        border-radius: 20px 20px;
+        padding: 20px 20px;
+        text-align: left;
+        font-size: 18px;
+        color: grey;
+        line-height: 30px;
+        align-items: left;
+        /* background-image: linear-gradient(rgb(248, 242, 242), rgb(255, 255, 255), rgba(173, 172, 175, 0.575)); */
+    
+    }
+
+    .imginput{
+        margin-bottom: 0px;
+        width: 100%;
+    }
+
+    #profile_pic{
+        width: 60%;
+    }
+
+    .updatebilldetails{
+        display: block;
+        justify-content: space-between;
+    }
+}

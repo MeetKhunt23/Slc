@@ -1,0 +1,88 @@
+.logout {
+  font-size: 35px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+}
+
+.Brand {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0a0a0a;
+  background-color: white;
+  font-weight: 800;
+  margin-left: -5%;
+  padding: 10px 10px;
+  border-radius: 20px 0px;
+}
+
+.navbr {
+  background-image: url("../../assets//header.png");
+  background-size: cover;
+  background-position: 0cqb;
+  background-repeat: no-repeat;
+  background-color: yellow;
+  /* opacity: 30%; */
+}
+
+.nvbtn {
+  font-size: 18px;
+}
+
+.recyclebin {
+  width: 40px;
+  cursor: pointer;
+  position: relative;
+  right: 10px;
+}
+
+@media only screen and (max-width: 576px) {
+  .navbr {
+    background-image: url("../../assets//header.png");
+    background-size: cover;
+    background-position: 0cqb;
+    background-repeat: no-repeat;
+    background-color: yellow;
+    width: 100%;
+    height: 90px;
+    /* opacity: 30%; */
+  }
+
+  .togglebtn {
+    width: 66px;
+    position: absolute;
+    left: 5px;
+  }
+
+  .Brand {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0a0a0a;
+    background-color: white;
+    font-weight: 800;
+    padding: 10px 10px;
+    margin-left: 2%;
+    border-radius: 20px 0px;
+  }
+
+  .logout {
+    font-size: 35px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    position: absolute;
+    right: -3%;
+  }
+
+  .recyclebin {
+    width: 40px;
+    cursor: pointer;
+    position: absolute;
+    right:12%;
+    top: 20px;
+  }
+}

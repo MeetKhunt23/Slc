@@ -1,0 +1,229 @@
+.history-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 1%;
+  font-size: 16px;
+  margin-bottom: 5%;
+}
+
+.history-name-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  line-height: 40px;
+  /* border: 2px solid orange; */
+  width: 50%;
+  padding: 20px 20px;
+  text-align: left;
+  /* color: grey; */
+  font-size: 16px;
+  border-right: 2px solid grey;
+}
+
+.history-name-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: 40px;
+    /* border: 2px solid orange; */
+    width: 50%;
+    padding: 20px 20px;
+    text-align: left;
+    /* color: grey; */
+    font-size: 16px;
+  }
+
+.history-upperbox {
+  display: flex;
+  justify-content: space-around;
+  line-height: 40px;
+  border: 2px solid rgb(211, 210, 208);
+  width: 50%;
+  padding: 20px 20px;
+  text-align: left;
+  /* color: rgb(0, 0, 0); */
+  font-size: 16px;
+  border-radius: 0px 20px;
+
+}
+
+.history-lower {
+  display: flex;
+  line-height: 40px;
+  margin-top: 3%;
+  border: 2px solid rgb(211, 210, 208);
+
+  width: 50%;
+  padding: 20px 20px;
+  text-align: left;
+  /* color: grey; */
+  font-size: 16px;
+  border-radius: 0px 20px;
+
+}
+
+.history-amount-1 {
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    margin-top: 3%;
+    width: 50%;
+    padding: 20px 20px;
+    text-align: left;
+    /* color: grey; */
+    font-size: 16px;
+  border-right: 2px solid grey;
+
+  }
+
+
+  .history-amount-2 {
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    margin-top: 3%;
+    width: 50%;
+    /* border: 2px solid orange; */
+    padding: 20px 20px;
+    text-align: left;
+    /* color: grey; */
+    font-size: 16px;
+  }
+
+  .insightbbtn{
+    width: 30%;
+    display: flex;
+    align-items: center;
+  }
+
+  .billbookheaderdiv{
+    width: 30%;
+    display: flex;
+    align-items: center;
+  }
+
+  .insighthbtn{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+
+@media only screen and (max-width: 576px) {
+  .history-upperbox {
+    display: flex;
+    justify-content: space-around;
+    line-height: 30px;
+    border: 2px solid rgb(211, 210, 208);
+    width: 90%;
+    margin-left: 2%;
+    padding: 20px 20px;
+    text-align: left;
+    /* color: rgb(0, 0, 0); */
+    font-size: 14px;
+    border-radius: 0px 20px;
+  }
+
+  .history-lower {
+    display: flex;
+    line-height: 40px;
+    margin-top: 5%;
+    border: 2px solid rgb(211, 210, 208);
+    width: 90%;
+    margin-left: 2%;
+    padding: 20px 20px;
+    text-align: left;
+    /* color: grey; */
+    font-size: 16px;
+    border-radius: 0px 20px;
+
+  }
+
+  .history-name-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 2px solid orange; */
+    width: 50%;
+    padding: 0px 0px;
+    text-align: left;
+    /* color: grey; */
+    font-size: 16px;
+    border-right: 2px solid grey;
+  }  
+
+  .history-name-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: 40px;
+    /* border: 2px solid orange; */
+    width: 50%;
+    padding: 0px 20px;
+    text-align: left;
+    /* color: grey; */
+    font-size: 16px;
+  }
+
+  .history-amount-1 {
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    margin-top: 3%;
+    width: 50%;
+    padding: 0px 0px;
+    text-align: left;
+    /* color: grey; */
+    font-size: 16px;
+  border-right: 2px solid grey;
+
+  }
+
+
+  .history-amount-2 {
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    margin-top: 3%;
+    width: 50%;
+    /* border: 2px solid orange; */
+    padding: 0px 20px;
+    text-align: left;
+    /* color: grey; */
+    font-size: 16px;
+  }
+
+  .insightbbtn{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+  }
+
+  .billbookheaderdiv{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .insighthbtn{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px;
+
+  }
+
+  .historyheader{
+    font-size: 18px;
+    margin-top: 20px;
+
+  }
+}
+
